@@ -14,6 +14,7 @@
   "dependencies": {
     "@nuxt/eslint": "^1.15.1",
     "@nuxthub/core": "0.10.6",
+    "@nuxtjs/i18n": "10.2.3",
     "@primeuix/themes": "^2.0.3",
     "@primevue/forms": "^4.5.4",
     "@valkey/valkey-glide": "^2.2.7",

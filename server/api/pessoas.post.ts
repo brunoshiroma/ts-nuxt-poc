@@ -6,5 +6,8 @@ export default defineEventHandler<{ body: { primeiroNome: string, ultimoNome: st
   await db.insert(schema.pessoas)
     .values({ primeiroNome, ultimoNome, nascimento: nascimento, created_at: new Date() })
 
+  const storage = useStorage('cache');
+  await storage.clear('pessoas');
+
   return 'ok'
 })

@@ -25,8 +25,7 @@ async function onFormSubmit(form: FormSubmitEvent<Record<string, string>>) {
     }
   })
 
-  console.log('response ', response);
-  refresh()
+  await refresh()
 }
 
 const resolver = (formResolverOptions: FormResolverOptions): Record<string, string|boolean> => {
