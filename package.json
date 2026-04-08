@@ -19,7 +19,7 @@
     "@primevue/forms": "^4.5.4",
     "@valkey/valkey-glide": "^2.2.7",
     "drizzle-kit": "^0.31.9",
-    "drizzle-orm": "^0.45.1",
+    "drizzle-orm": "^0.45.2",
     "nuxt": "^4.3.1",
     "postgres": "^3.4.8",
     "primevue": "^4.5.4",
