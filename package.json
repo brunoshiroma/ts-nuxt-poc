@@ -12,21 +12,24 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@nuxt/eslint": "^1.15.1",
-    "@nuxthub/core": "0.10.6",
+    "@nuxt/eslint": "^1.17.0",
+    "@nuxthub/core": "0.10.8",
     "@nuxtjs/i18n": "10.2.3",
     "@primeuix/themes": "^2.0.3",
     "@primevue/forms": "^4.5.4",
     "@valkey/valkey-glide": "^2.2.7",
-    "drizzle-kit": "^0.31.9",
+    "drizzle-kit": "^0.31.10",
     "drizzle-orm": "^0.45.2",
-    "nuxt": "^4.3.1",
+    "nuxt": "^4.5.2",
     "postgres": "^3.4.8",
     "primevue": "^4.5.4",
     "vue": "^3.5.28",
     "vue-router": "^4.6.4"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "resolutions": {
+    "nuxt/rolldown": "1.2.6"
+  },
   "devDependencies": {
     "@primevue/nuxt-module": "^4.5.4",
     "eslint": "^10.0.0",
