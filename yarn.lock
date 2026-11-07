@@ -5449,12 +5449,12 @@ mimic-fn@^4.0.0:
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-4.0.0.tgz#60a90550d5cb0b239cca65d893b1a53b29871ecc"
   integrity sha512-vqiC06CuhBTUdZH+RYl8sFrL096vA45Ok5ISO6sE/Mr1jRbGH4Csnhi8f3wKVl7x8mO4Au7Ir9D3Oyv1VYMFJw==
 
-minimatch@^10.2.2, minimatch@^10.2.4, minimatch@^10.2.6:
-  version "10.2.6"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-10.2.6.tgz#fd956bbe0b77241e9f15ac5dccb1c638060968ef"
-  integrity sha512-vpLQEs+VLCr1nU0BXS07maYoFwlDAH0gngQuuttxIwutDFEMHq2blX+8vpgxDdK3J1PwjCJiep77OitTZ4Ll1A==
+minimatch@^11.0.1, minimatch@^11.0.2, minimatch@^11.0.3, minimatch@^11.0.4, minimatch@^11.0.5:
+  version "11.0.5"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-11.0.5.tgz#29589e94fc4d84193b2a31b082b0ec67b5ea1d42"
+  integrity sha512-EtRVibbrxKpVtc71hv0u0lbGUzBpuX3AMt2A2Xi/FYIvqGy89S0aUce5DYiCqwKwHbVzTjW6FyOZBnLJtM5dXA==
   dependencies:
-    brace-expansion "^5.0.8"
+    brace-expansion "^3.0.0"
 
 "minimatch@^9.0.3 || ^10.1.2 || ^11.0.1":
   version "11.0.5"
